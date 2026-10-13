@@ -1,0 +1,217 @@
+Aqui está o código do site da P&H Transportation, preto e dourado, pronto para colocar no GitHub.
+
+Apague index.html da linha 1 e cole todo este código no lugar:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>P&H Transportation | Professional Services</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #101010;
+      color: #fff;
+      line-height: 1.6;
+    }
+    header {
+      background: #050505;
+      padding: 28px 20px;
+      text-align: center;
+      border-bottom: 2px solid #d4af37;
+    }
+    h1, h2 { color: #d4af37; }
+    h1 { margin: 0; font-size: 36px; }
+    nav { margin-top: 16px; }
+    nav a {
+      color: #fff;
+      margin: 0 9px;
+      text-decoration: none;
+    }
+    .hero {
+      text-align: center;
+      padding: 85px 20px;
+      background: linear-gradient(#000b,#000d),
+        url('https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=1400')
+        center/cover;
+    }
+    .hero h2 { font-size: 34px; }
+    .btn {
+      display: inline-block;
+      padding: 13px 22px;
+      margin: 8px;
+      background: #d4af37;
+      color: #000;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 6px;
+    }
+    section {
+      padding: 55px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit,minmax(230px,1fr));
+      gap: 20px;
+    }
+    .service {
+      background: #1c1c1c;
+      border: 1px solid #66551c;
+      border-radius: 12px;
+      overflow: hidden;
+    }
+    .service img {
+      width: 100%;
+      height: 165px;
+      object-fit: cover;
+    }
+    .service div { padding: 18px; }
+    .service h3 { color: #d4af37; }
+    .contact {
+      text-align: center;
+      background: #191919;
+      border-radius: 12px;
+    }
+    .contact a { color: #d4af37; }
+    footer {
+      text-align: center;
+      padding: 25px;
+      border-top: 1px solid #d4af37;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+<header>
+  <h1>P&H TRANSPORTATION</h1>
+  <p>Transportation • Delivery • Home Services</p>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+<div class="hero">
+  <h2>Reliable Service. Quality Work.</h2>
+  <p>
+    Professional transportation, deliveries,
+    junk removal, painting, countertops
+    and handyman services.
+  </p>
+  <p>Serving Massachusetts and surrounding areas.</p>
+  <a class="btn" href="#contact">Get a Free Quote</a>
+  <a class="btn" href="https://wa.me/16178187324">
+    WhatsApp Us
+  </a>
+</div>
+<section id="about">
+  <h2>About Our Company</h2>
+  <p>
+    P&H Transportation is committed to providing
+    dependable, professional and affordable services.
+    From local deliveries and furniture removal to
+    painting, countertops and home improvement,
+    we are ready to help you get the job done.
+  </p>
+  <p>
+    Customer satisfaction, responsibility and
+    quality workmanship are our priorities.
+  </p>
+</section>
+<section id="services">
+  <h2>Our Services</h2>
+  <div class="services">
+    <article class="service">
+      <img src="https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?w=600" alt="Transportation">
+      <div>
+        <h3>Transportation & Delivery</h3>
+        <p>Local and long-distance transportation,
+        cargo van deliveries and point-to-point service.</p>
+      </div>
+    </article>
+    <article class="service">
+      <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=600" alt="Home services">
+      <div>
+        <h3>Furniture Pickup & Removal</h3>
+        <p>Store pickups, furniture transportation,
+        moving assistance and removal services.</p>
+      </div>
+    </article>
+    <article class="service">
+      <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=600" alt="Cleanup">
+      <div>
+        <h3>Junk & Debris Removal</h3>
+        <p>Residential and commercial junk removal,
+        debris cleanup and unwanted item disposal.</p>
+      </div>
+    </article>
+    <article class="service">
+      <img src="https://images.unsplash.com/photo-1562259949-e8e7689d7828?w=600" alt="Painting">
+      <div>
+        <h3>Interior & Exterior Painting</h3>
+        <p>Professional painting for homes,
+        apartments, offices and other properties.</p>
+      </div>
+    </article>
+    <article class="service">
+      <img src="https://images.unsplash.com/photo-1556911220-bff31c812dba?w=600" alt="Kitchen countertops">
+      <div>
+        <h3>Countertop Services</h3>
+        <p>Countertop installation, replacement
+        and kitchen improvement projects.</p>
+      </div>
+    </article>
+    <article class="service">
+      <img src="https://images.unsplash.com/photo-1530124566582-a618bc2615dc?w=600" alt="Tools">
+      <div>
+        <h3>Handyman & Extra Services</h3>
+        <p>General repairs, maintenance, assembly
+        and additional property improvement services.</p>
+      </div>
+    </article>
+  </div>
+</section>
+<section id="contact" class="contact">
+  <h2>Contact Us Today</h2>
+  <p>Tell us about your project and get a free quote!</p>
+  <p><strong>Primary Phone:</strong><br>
+    <a href="tel:+16178187324">
+      +1 (617) 818-7324
+    </a>
+  </p>
+  <a class="btn" href="https://wa.me/16178187324">
+    WhatsApp - Primary
+  </a>
+  <p><strong>Secondary Phone:</strong><br>
+    <a href="tel:+18573396669">
+      +1 (857) 339-6669
+    </a>
+  </p>
+  <a class="btn" href="https://wa.me/18573396669">
+    WhatsApp - Secondary
+  </a>
+  <p><strong>Email:</strong><br>
+    <a href="mailto:Phtransportation8@gmail.com">
+      Phtransportation8@gmail.com
+    </a>
+  </p>
+  <a class="btn" href="mailto:Phtransportation8@gmail.com?subject=Free%20Quote%20Request">
+    Request a Free Quote
+  </a>
+  <p>Based in Massachusetts, USA</p>
+</section>
+<footer>
+  <p>© 2026 P&H Transportation Corporation.</p>
+  <p>Reliable Transportation & Professional Services</p>
+</footer>
+</body>
+</html>
+
+Depois de colar, aperte o botão azul Commit, que aparece no canto superior direito da sua tela.
+
+Me mande uma foto da próxima tela, que vou te orientar a publicar o site na internet.
